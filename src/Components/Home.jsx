@@ -3,7 +3,7 @@ import home from "../assets/home.png";
 export default function Home() {
   return (
     <>
-      <section className="relative w-full h-screen" id="home">
+      <section className="relative w-full h-screen  " id="home">
     
         <img src={home} className="w-full h-full object-cover" alt="home" />
 
@@ -11,7 +11,7 @@ export default function Home() {
 
        
         <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center px-4">
-          <h1 className="text-white text-3xl md:text-4xl leading-snug font-sans font-semibold ">
+          <h1 className="text-white text-3xl sm:text-4xl md:text-5xl  leading-snug font-sans font-semibold ">
             Your Blood Can Bring Smile <br  className="hidden sm:block"/> In Other Person Face
           </h1>
 
