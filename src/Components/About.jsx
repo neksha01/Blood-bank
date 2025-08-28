@@ -12,7 +12,7 @@ export default function About(){
   ];
     return(
         <>
-      <div className="flex flex-col lg:flex-row  items-center justify-between px-8 lg:py-16 bg-white mt-10 gap-10 bg-gradient-to-r from-red-100 via-white to-red-100">
+      <div className="flex flex-col lg:flex-row  items-center justify-between px-8 lg:py-16 bg-white mt-10 gap-10 bg-gradient-to-r from-red-100 via-white to-red-100" id="about">
         <div className="lg:w-1/2 space-y-4 text-center lg:text-left leading-snug">
 
             <h1 className="text-lg md:text-2xl font-semibold text-gray-900 ">WELCOME TO BLOOD DONOR<span/> ORGANIZATION</h1>

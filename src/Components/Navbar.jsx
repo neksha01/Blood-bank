@@ -1,6 +1,7 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import {HashLink} from 'react-router-hash-link'
 import icon from "../assets/icon.png"
+
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,10 +25,10 @@ export default function Navbar() {
 
       
         <div className="hidden md:flex gap-12 text-xl">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contactus">Contact Us</Link>
-          <Link to="/blog">Blog</Link>
+          <HashLink smooth to="/">Home</HashLink>
+          <HashLink smooth to="/about">About</HashLink>
+          <HashLink smooth to="/contactus">Contact Us</HashLink>
+          <HashLink smooth to="/blog">Blog</HashLink>
         </div>
       </nav>
 
@@ -38,12 +39,13 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col gap-8 p-6 text-lg mt-12  ">
-          <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
-          <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
-          <Link to="/contactus" onClick={() => setIsOpen(false)}>Contact Us</Link>
-          <Link to="/blog" onClick={() => setIsOpen(false)}>Blog</Link>
+          <HashLink smooth to="/#home" onClick={() => setIsOpen(false)}>Home</HashLink>
+          <HashLink smooth to="/#about" onClick={() => setIsOpen(false)}>About</HashLink>
+          <HashLink smooth to="/#contactus" onClick={() => setIsOpen(false)}>Contact</HashLink>
+          <HashLink smooth to="/#blog" onClick={() => setIsOpen(false)}>Blog</HashLink>
         </div>
       </div>
+     
     </>
   );
 }
