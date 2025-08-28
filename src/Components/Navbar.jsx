@@ -25,10 +25,10 @@ export default function Navbar() {
 
       
         <div className="hidden md:flex gap-12 text-xl">
-          <HashLink smooth to="/">Home</HashLink>
-          <HashLink smooth to="/about">About</HashLink>
-          <HashLink smooth to="/contactus">Contact Us</HashLink>
-          <HashLink smooth to="/blog">Blog</HashLink>
+          <HashLink smooth to="#home">Home</HashLink>
+          <HashLink smooth to="#about">About</HashLink>
+          <HashLink smooth to="#contactus">Contact</HashLink>
+          <HashLink smooth to="#blog">Blog</HashLink>
         </div>
       </nav>
 
@@ -39,10 +39,10 @@ export default function Navbar() {
         }`}
       >
         <div className="flex flex-col gap-8 p-6 text-lg mt-12  ">
-          <HashLink smooth to="/#home" onClick={() => setIsOpen(false)}>Home</HashLink>
-          <HashLink smooth to="/#about" onClick={() => setIsOpen(false)}>About</HashLink>
-          <HashLink smooth to="/#contactus" onClick={() => setIsOpen(false)}>Contact</HashLink>
-          <HashLink smooth to="/#blog" onClick={() => setIsOpen(false)}>Blog</HashLink>
+          <HashLink smooth to="#home" onClick={() => setIsOpen(false)}>Home</HashLink>
+          <HashLink smooth to="#about" onClick={() => setIsOpen(false)}>About</HashLink>
+          <HashLink smooth to="#contactus" onClick={() => setIsOpen(false)}>Contact</HashLink>
+          <HashLink smooth to="#blog" onClick={() => setIsOpen(false)}>Blog</HashLink>
         </div>
       </div>
      
