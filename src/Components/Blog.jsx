@@ -1,7 +1,7 @@
 import blog1 from "../assets/blog1.png";
 import blog2 from "../assets/blog2.png";
 import blog3 from "../assets/blog3.png";
-import image from "../assets/image.png"; // ✅ (Currently unused, can be used later for hero section)
+import image from "../assets/image.png"; 
 
 export default function Blog() {
   const blogs = [
@@ -46,17 +46,17 @@ export default function Blog() {
         backgroundImage: `url(${image})`, 
       }}
     >
-      {/* 🔹 NEW: Decorative background image with opacity */}
+     
       <div
         className="absolute inset-0  bg-cover bg-center opacity-10"
       ></div>
 
-      {/* 🔹 NEW: Overlay to make text more visible */}
+     
       <div className="absolute inset-0 bg-white/40 backdrop-blur-sm"></div>
 
-      {/* 🔹 Content Wrapper */}
+      
       <div className="relative z-10 max-w-7xl mx-auto">
-        {/* 🔹 Section Heading */}
+   
         <div className="text-center mb-12">
           <h1 className="text-3xl sm:text-4xl font-bold text-gray-900">
             Our Latest Blogs
@@ -66,7 +66,7 @@ export default function Blog() {
           </p>
         </div>
 
-        {/* 🔹 Responsive Blog Cards */}
+      
         <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {blogs.map((blog) => (
             <div
@@ -77,14 +77,14 @@ export default function Blog() {
                 hover:scale-[1.03] flex flex-col
               "
             >
-              {/* Blog Image */}
+           
               <img
                 src={blog.image}
                 alt={blog.title}
                 className="w-full h-52 sm:h-56 object-cover rounded-t-xl"
               />
 
-              {/* Blog Content */}
+          
               <div className="p-5 flex flex-col flex-1">
                 <h2 className="text-lg sm:text-xl font-semibold text-gray-800">
                   {blog.title}
@@ -93,13 +93,13 @@ export default function Blog() {
                   {blog.description}
                 </p>
 
-                {/* Author & Date */}
+             
                 <div className="flex justify-between items-center mt-4 text-xs sm:text-sm text-gray-500">
                   <span>👩‍⚕️ {blog.author}</span>
                   <span>📅 {blog.date}</span>
                 </div>
 
-                {/* Read More Button */}
+            
                 <button
                   className="
                     mt-5 bg-red-500 hover:bg-red-600 
