@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <>
      
-      <nav className="fixed w-full flex justify-between items-center px-6 py-3 top-0 left-0 bg-white/40 backdrop-blur-md z-50 h-16">
+      <nav className="sticky w-full flex justify-between items-center px-6 py-3 top-0 left-0 bg-white/40 backdrop-blur-md z-50 h-16">
      
         <div >
             <img src={icon} className="h-16 w-16 object-contain"/>
