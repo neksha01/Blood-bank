@@ -4,7 +4,7 @@ import About from "./Components/About"
 import Blog from "./Components/Blog"
 import ContactUs from "./Components/ContactUs"
 import Navbar from "./Components/Navbar"
-import Layout from "./Components/Layout"
+import BlogDetails from "./Components/BlogDetails"
 
 function App() {
  
@@ -25,6 +25,7 @@ function App() {
               </>
             }
           />
+          <Route path="/blog/:id" element={<BlogDetails />} />
         </Routes>
       </div>
     </Router>
