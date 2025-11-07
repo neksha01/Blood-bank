@@ -34,16 +34,18 @@ It aims to raise awareness about the importance of blood donation while providin
 
 🌱 Future Enhancements
 
-🔐 Add donor registration and authentication (using Firebase or Node.js).
-🗺️ Integrate Google Maps API to find nearby blood banks.
-💾 Connect to a backend (Node.js + MongoDB) for real data storage.
-📩 Add blood request and donor response features.
+-🔐 Add donor registration and authentication (using Firebase or Node.js).
+-🗺️ Integrate Google Maps API to find nearby blood banks.
+-💾 Connect to a backend (Node.js + MongoDB) for real data storage.
+-📩 Add blood request and donor response features.
 
 ---
 
 🧑‍💻 Author
 
-👩‍💻 Neksha Kamboj
-🔗 https://github.com/neksha01
-💬 “Donate blood — save lives. Every drop counts!”
+-👩‍💻 Neksha Kamboj
+-🔗 https://github.com/neksha01
+-💬 “Donate blood — save lives. Every drop counts!”
+
+---
 
