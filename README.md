@@ -1,12 +1,49 @@
-# React + Vite
+# 🩸 Blood Bank — Life Saver Web App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> 🌐 **Live Project:** [Blood Bank App](https://neksha01.github.io/Blood-bank/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧩 Overview
 
-## Expanding the ESLint configuration
+**Blood Bank** is a simple and interactive web application that helps connect **blood donors** and **recipients**.  
+It aims to raise awareness about the importance of blood donation while providing a user-friendly interface to explore blood types and understand the donation process.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ✨ Features
+
+- 🩸 **Find Donors Easily:** Search by blood group or location (UI-based example).  
+- 🧠 **Educational Info:** Learn about blood types and compatibility.  
+- 📱 **Responsive Design:** Works seamlessly across all devices.  
+- 🎨 **Attractive UI:** Clean layout and color theme inspired by healthcare and compassion.  
+- ⚡ **Fast and Lightweight:** Built using HTML, CSS, and JavaScript.
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Description |
+|-------------|-------------|
+| **React.js** | Component-based UI library |
+| **Vite** | Fast build tool and development server |
+| **CSS3** | Styling and layout |
+| **JavaScript (ES6)** | Application logic and interactivity |
+
+---
+
+🌱 Future Enhancements
+
+🔐 Add donor registration and authentication (using Firebase or Node.js).
+🗺️ Integrate Google Maps API to find nearby blood banks.
+💾 Connect to a backend (Node.js + MongoDB) for real data storage.
+📩 Add blood request and donor response features.
+
+---
+
+🧑‍💻 Author
+
+👩‍💻 Neksha Kamboj
+🔗 https://github.com/neksha01
+💬 “Donate blood — save lives. Every drop counts!”
+
